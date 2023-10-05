@@ -1,8 +1,19 @@
-html {
+body {
   font-family: sans-serif;
 }
 
 a {
   color: #337ab7;
   text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fafafa;
+    background: #222222;
+  }
+
+  a {
+    color: #8cb4ff;
+  }
 }
